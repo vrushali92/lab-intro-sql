@@ -88,7 +88,7 @@ From film;
 
 Select *
 from film
-where title like "ARMAGEDD%";
+where title like "%ARMAGEDD%";
 
 -- Answer: There isnt any film with this title. Hence tried with above query. There is one movie called Armageddon lost.
 
@@ -111,9 +111,9 @@ limit 10;
 
 Select *
 From film
-where special_features = "Behind the Scenes"
+where special_features like "%Behind the Scenes%"
 
--- Answer: There are 70 films with this feature.
+-- Answer: There are 538 films with this feature.
 
 
 
